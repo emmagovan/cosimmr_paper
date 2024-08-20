@@ -1,5 +1,6 @@
 #all plots for paper in one script
-
+library(MixSIAR)
+library(cosimmr)
 #simple SIMM walkthrough--------------
 set.seed(123)
 y = matrix(c(5, 5.1, 4.7, 3.6, 3.2, 0, -1, -2, -3, -7, 
